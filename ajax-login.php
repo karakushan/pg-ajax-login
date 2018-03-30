@@ -2,7 +2,7 @@
 /*
 Plugin Name: ProfGlobal Ajax Login
 Plugin URI: https://akismet.com/
-Description: Плагин регистрации и входа на ajax
+Description: Плагин регистрации и входа для CMS Wordpress на ajax
 Version: 1.0.0
 Author: Vitaliy Karakushan
 Author URI: https://automattic.com/pg-ajax-login/
