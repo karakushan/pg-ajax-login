@@ -1,0 +1,47 @@
+.pgal-profile-edit .card-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px; }
+.pgal-profile-edit .preloader {
+  display: none; }
+.pgal-profile-edit #pg-al-save-avatar {
+  display: none; }
+.pgal-profile-edit.form {
+  width: 800px;
+  max-width: 100%; }
+.pgal-profile-edit .change-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff; }
+  .pgal-profile-edit .change-avatar input {
+    display: none; }
+  .pgal-profile-edit .change-avatar:hover {
+    cursor: pointer; }
+.pgal-profile-edit .user-avatar {
+  text-align: center;
+  position: relative; }
+  .pgal-profile-edit .user-avatar .ava {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-position: center center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; }
+  .pgal-profile-edit .user-avatar:hover .change-avatar {
+    opacity: 1; }
+  .pgal-profile-edit .user-avatar img {
+    width: 36px; }
+
+#pg-al-revers .form, #pg-al-delete-account .form {
+  width: 100%; }
+  #pg-al-revers .form textarea, #pg-al-delete-account .form textarea {
+    padding: 20px; }
+
+/*# sourceMappingURL=pg-al-style.css.map */

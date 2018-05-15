@@ -1,0 +1,71 @@
+// Форма профиля
+.pgal-profile-edit {
+    .card-title {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .preloader {
+        display: none;
+    }
+    #pg-al-save-avatar {
+        display: none;
+    }
+
+    &.form {
+        width: 800px;
+        max-width: 100%;
+    }
+    .change-avatar {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #007bff;
+        input {
+            display: none;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .user-avatar {
+        text-align: center;
+        position: relative;
+
+        .ava {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            -webkit-background-size: cover;
+            background-size: cover;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background-position: center center;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &:hover {
+            .change-avatar {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 36px;
+        }
+    }
+
+}
+
+// форма обратной связи
+#pg-al-revers, #pg-al-delete-account {
+    .form {
+        width: 100%;
+        textarea {
+            padding: 20px;
+        }
+
+    }
+}
